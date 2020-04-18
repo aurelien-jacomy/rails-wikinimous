@@ -3,7 +3,7 @@
 		<%= f.text_field :title, placeholder: "Title", class: "title-box"%>	
 	</div>
 	<div class="form-box">
-		<%= f.text_field :content, placeholder: "Type your article here", class: "content-box" %>	
+		<%= f.text_area :content, placeholder: "Type your article here", class: "content-box", data: { editor: 'markdown'}, rows: 10 %>	
 	</div>
 	<%= f.submit %>
 <% end %>

@@ -7,6 +7,6 @@
 		<%= link_to "🗑", article_path(@article), method: :delete, data: {confirm: "Are you sure?"} %>	
 	</div>
 
-	<p><%= @article.content %></p>
-
+	<hr>
+	<%= @article.markdown_content %>
 </div>
