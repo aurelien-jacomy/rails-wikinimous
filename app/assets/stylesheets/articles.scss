@@ -1,0 +1,97 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+$light-gray: rgb(240, 240, 240);
+$dark-gray: rgb(150, 150, 150);
+
+body {
+	margin: 0px;
+}
+
+.header-elements {
+	width: 95%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	h1 {
+		font-size: 18px;
+		color: $dark-gray;
+	}
+	a {
+	  	font-size: 18px;
+	  	color: $dark-gray;	
+		&:hover {
+			color: rgb(100, 100, 100);
+		}	
+	}
+}
+
+.header-container {
+	background-color: $light-gray;
+	width: 100vw;
+	border-bottom: .5px solid rgb(200, 200,200);
+}
+
+.btn-gray {
+	margin: 0px;
+	padding: 0px;
+}
+
+.container-elements {
+ 	width: 95vw;
+ 	margin: 10px auto;
+ 	h2 {
+ 		margin-bottom: 10px;
+ 	}
+ 	p {
+ 		margin: 0px;
+ 		font-weight: lighter;
+ 	}
+ 	a {
+ 		text-decoration: none; 
+ 		color: #24527b;
+ 		font-weight: normal;
+ 	}
+}
+
+.title {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	h1 {
+		padding-right: 20px;
+	}
+}
+
+.form-box {
+	width: 95vw;
+	margin: 20px 0px;
+}
+
+.content-box {
+	width: 100%;
+	height: 100px;
+	padding: 4px;
+}
+
+.title-box {
+	width: 100%;
+	padding: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

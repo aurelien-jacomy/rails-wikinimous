@@ -1,0 +1,12 @@
+
+
+<div class="container-elements">
+	<div class="title">
+		<h1><%= @article.title %></h1>
+		<%= link_to "🖊", edit_article_path(@article) %>
+		<%= link_to "🗑", article_path(@article), method: :delete, data: {confirm: "Are you sure?"} %>	
+	</div>
+
+	<p><%= @article.content %></p>
+
+</div>
